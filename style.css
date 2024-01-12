@@ -16,7 +16,6 @@ header {
 }
 
 main {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +24,35 @@ main {
     height: 60%;
 }
 
+input {
+    width: 300px;
+    height: 25px;
+    border: 0.1rem solid #cacaca;
+}
+
+button {
+    width: 85px;
+    height: 25px;
+    background-color: #797979;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
 footer {
     background-color: green;
     height: 20%;
+}
+
+.traduzido {
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
 }

@@ -14,13 +14,20 @@
     
         <main>
           <div class="input">
-            <input type="text" id="input" placeholder="O que voce quer falar hoje?">
+            <input type="text" id="input" placeholder="O que voce quer dizer hoje?">
             <button onclick="traduzir()">Traduzir</button>
           </div>
 
           <div class="traduzido">
-            <p>Voce disse: </p><p id="voceDisse"></p>
-            <p>O Cebolinha diria: </p><p id="cebolinhaDisse"></p>
+            <div class="linha">
+              <p>Voce disse: </p>
+              <p id="voceDisse"> </p>
+            </div>
+
+            <div class="linha">
+              <p>O Cebolinha diria: </p>
+              <p id="cebolinhaDisse"> </p>
+            </div>
           </div>
 
         </main>
